@@ -5,9 +5,10 @@
     android:orientation="vertical"
     android:padding="15dp">
 
+
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="450dp"
         android:id="@+id/imagen"/>
 
     <TextView
@@ -16,7 +17,9 @@
         android:text="Descripción"
         android:textSize="25dp"
         android:layout_marginTop="15dp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:id="@+id/titulo"
+        />
 
     <TextView
         android:layout_width="wrap_content"

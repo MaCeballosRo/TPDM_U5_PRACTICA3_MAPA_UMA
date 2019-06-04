@@ -13,7 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
+    String describir;
     Button E_B, E_B1_P, E_B2_P, E_Q, E_P, E_EE, E_G, E_G_P;
     Button E_CBI, E_A, E_H, E_M, E_J, E_L, E_X, E_N;
     Button E_LIIA, E_F, E_K, E_S, E_AD, E_CI, E_TA;
@@ -55,329 +55,258 @@ public class MainActivity extends AppCompatActivity {
         E_CB2 = findViewById(R.id.E_CB2);
         E_UD = findViewById(R.id.E_UD);
 
-        E_LC.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                LC();
-            }
-        });
 
-        E_CB1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                CB();
-            }
-        });
-
-        E_CB2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                CB();
-            }
-        });
-
-        E_UD.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                UD();
-            }
-        });
 
         E_B.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                B();
+                describir = " ";
+                Mensaje(R.drawable.b,"Edificio B",describir);
             }
         });
 
         E_B1_P.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                B_P();
+                describir = " ";
+                Mensaje(R.drawable.b_p,"Edificio B'",describir);
             }
         });
 
         E_B2_P.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                B_P();
+                describir = " ";
+                Mensaje(R.drawable.b_p,"Edificio B'",describir);
             }
         });
 
         E_Q.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Q();
+                describir = " ";
+                Mensaje(R.drawable.q,"Edificio Q'",describir);
             }
         });
 
         E_P.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                P();
+                describir = " ";
+                //Mensaje(R.drawable.p,"Edificio P",describir);
             }
         });
 
         E_EE.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                EE();
+                describir = "En esta oficina se encuentran los encargados de la organización de todas las actividades extraescolares que se llevan a cabo en esta institución, así como de todos los eventos relacionados a las mismas. Recuerda siempre estar atento a todas noticias dadas por este departamento.";
+                Mensaje(R.drawable.ee,"Departamento de Actividades Extraescolares",describir);
             }
         });
 
         E_G.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                G();
+                describir = " ";
+                Mensaje(R.drawable.g,"Edificio G",describir);
             }
         });
 
         E_G_P.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                G_P();
+                describir = " ";
+                Mensaje(R.drawable.g_p,"Edificio G'",describir);
             }
         });
 
-        E_UVP.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                UVP();
-            }
-        });
+        //--------------------------------------------------------------------------------
+
 
         E_CBI.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                CBI();
-            }
-        });
-
-        E_LIIA.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Quimica();
-            }
-        });
-
-        E_F.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                F();
-            }
-        });
-
-        E_CBI.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                CBI();
+                describir = " ";
+                //Mensaje(R.drawable.licbi,"Edificio LICBI",describir);
             }
         });
 
         E_A.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                A();
+                describir = " ";
+                Mensaje(R.drawable.a,"Edificio A",describir);
             }
         });
 
         E_H.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                H();
+                describir = " ";
+                Mensaje(R.drawable.h,"Edificio H",describir);
             }
         });
 
         E_M.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                M();
+                describir = " ";
+                Mensaje(R.drawable.m,"Edificio M",describir);
             }
         });
 
         E_J.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                J();
+                describir = " ";
+                Mensaje(R.drawable.j,"Edificio J",describir);
             }
         });
 
         E_L.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                L();
+                describir = " ";
+                Mensaje(R.drawable.l,"Edificio L",describir);
             }
         });
 
         E_X.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                X();
+                describir = " ";
+                Mensaje(R.drawable.x,"Edificio X",describir);
             }
         });
 
         E_N.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                N();
+                describir = " ";
+                Mensaje(R.drawable.n,"Edificio N",describir);
             }
         });
+
+        //---------------------------------------------------------------
 
         E_LIIA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                LIIA();
+                describir = " ";
+                Mensaje(R.drawable.liia,"Edificio LIIA",describir);
             }
         });
 
         E_F.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                F();
+                describir = " Este edificio contiene los laboratorios de ingeniería eléctrica y de mecatrónica.";
+                Mensaje(R.drawable.f,"Edificio F",describir);
             }
         });
 
         E_K.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                K();
+                describir = " ";
+                Mensaje(R.drawable.k,"Edificio K",describir);
             }
         });
 
         E_S.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                S();
+                describir = " ";
+                Mensaje(R.drawable.s,"Edificio S",describir);
             }
         });
 
         E_AD.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AD();
+                describir = "En este edificio se encuentran las oficinas de los puestos directivos de la institución, el departamento de finacieros y coordinación  ";
+                Mensaje(R.drawable.ad,"Administración",describir);
             }
         });
 
         E_CI.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                CI();
+                describir = " Dentro de este edificio se encuentra la única biblioteca de la institución. Además cuenta con tres salas de clases y es usada como cede de algunas de las actividades realizadas, como conferencias, pláticas, reuniones o eventos de importancia.";
+                Mensaje(R.drawable.ci,"Centro de Información",describir);
             }
         });
 
         E_TA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                TA();
+                describir = "En este edificio de encuentran las salas especializadas o talleres de dibujo, utilizados por los estudiantes de las carreras de arquitectura.";
+                Mensaje(R.drawable.ta,"Edificio TA",describir);
+            }
+        });
+
+        //------------------------------------------------------------------
+        E_UVP.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                describir = " ";
+                Mensaje(R.drawable.uvp,"Edificio UVP",describir);
+            }
+        });
+
+        E_LC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                describir = "Está conformado por 5 salas de cómputo, 3 de propósito general, una sala CISCO( especializada para el trabajo en redes de computadoras) y una sala de Sistemas Operativos. Las carreras que principalmente utilizan este laboratorio son Sistemas Computacionales, Mecatrónica y Civil";
+                Mensaje(R.drawable.lc,"Laboratorio de Computo",describir);
+            }
+        });
+
+        E_CB1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                describir = " También conocido como 'Baston', sus aulas son usadas para impartir materias relacionadas con las ciencias exactas (Matemáticas y Física); además contiene las oficinas de los docentes relacionados a esta área.";
+                Mensaje(R.drawable.cb,"Ciencias Básicas",describir);
+            }
+        });
+
+        E_CB2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                describir = " También conocido como 'Baston', sus aulas son usadas para impartir materias relacionadas con las ciencias exactas (Matemáticas y Física); además contiene las oficinas de los docentes relacionados a esta área. ";
+                Mensaje(R.drawable.cb,"Ciencias Básicas",describir);
+            }
+        });
+
+        E_UD.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                describir = " ";
+                Mensaje(R.drawable.ud,"Unidad Académica Departamental",describir);
             }
         });
 
     }
 
-    private void B(){
 
-    }
 
-    private void B_P(){
-
-    }
-
-    private void Q(){
-
-    }
-
-    private void P(){
-
-    }
-
-    private void EE(){
-
-    }
-
-    private void G(){
-
-    }
-
-    private void G_P(){
-
-    }
-
-    private void A(){
-
-    }
-    private void H(){
-
-    }
-    private void M(){
-
-    }
-    private void J(){
-
-    }
-    private void L(){
-
-    }
-    private void X(){
-
-    }
-    private void N(){
-
-    }
-
-    private void LIIA(){
-
-    }
-    private void K(){
-
-    }
-    private void S(){
-
-    }
-    private void AD(){
-
-    }
-    private void CI(){
-
-    }
-    private void TA(){
-
-    }
-
-    private void LC(){
+    private void Mensaje(int imagenID,String edificio,String descripcionG){
         AlertDialog.Builder muchosView = new AlertDialog.Builder(this);
-
         final View contenido = getLayoutInflater().inflate(R.layout.informacion,null);
         ImageView imagen = contenido.findViewById(R.id.imagen);
-        imagen.setImageResource(R.drawable.lc);
+        TextView titulo = contenido.findViewById(R.id.titulo);
         TextView descripcion = contenido.findViewById(R.id.descripcion);
-        descripcion.setText("Este es el laboratorio de cómputo. Esta conformada por 5 salas de cómputo, 3 de propósito general, una sala CISCO( especializada para el trabajo en redes de computadoras) y una sala de Sistemas Operativos. Las carreras que principalmente utilizan este laboratorio son Sistemas Computacionales, Mecatrónica y Civil");
+
+        imagen.setImageResource(imagenID);
+        titulo.setText(edificio);
+        descripcion.setText(descripcionG);
+
         muchosView.setTitle("Información");
         //muchosView.setMessage("Se muestran los Views");
         muchosView.setView(contenido);
         muchosView.setPositiveButton("Aceptar", null);
         muchosView.show();
-    }
-    private void CB(){
-
-    }
-    private void UD(){
-
-    }
-
-    private void UVP(){
-        Toast.makeText(this,"UVP",Toast.LENGTH_SHORT).show();
-    }
-
-    private void CBI(){
-        Toast.makeText(this,"CBI",Toast.LENGTH_SHORT).show();
-    }
-
-    private void Quimica(){
-        Toast.makeText(this,"Quimica",Toast.LENGTH_SHORT).show();
-    }
-
-    private void F(){
-        Toast.makeText(this,"F",Toast.LENGTH_SHORT).show();
     }
 
 }
