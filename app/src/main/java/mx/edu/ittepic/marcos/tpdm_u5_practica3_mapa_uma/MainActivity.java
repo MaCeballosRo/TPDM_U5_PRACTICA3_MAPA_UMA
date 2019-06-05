@@ -84,8 +84,12 @@ public class MainActivity extends AppCompatActivity {
         E_Q.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+<<<<<<< HEAD
                 describir = "Este edificio se ubica en la parte trasera del tecnologico, a un lado de las canchas de futbol," +
                         "aquí normalmente toman clase los alumnos de Ingenieria Bioquimica";
+=======
+                describir = " ";
+>>>>>>> 18baec13b24ad29e385a5fb63b9c2e88f2bcf9ba
                 Mensaje(R.drawable.q,"Edificio Q'",describir);
             }
         });
@@ -109,8 +113,12 @@ public class MainActivity extends AppCompatActivity {
         E_G.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+<<<<<<< HEAD
                 describir = "El edificio G está en la parte trase del tecnologico, son utilizados para recibir a los aspirantes del tec " +
                         ", donde toman sus cursos de nivelación antes del examen. Tambien son utilizados durante el semestre por todas las areas";
+=======
+                describir = " ";
+>>>>>>> 18baec13b24ad29e385a5fb63b9c2e88f2bcf9ba
                 Mensaje(R.drawable.g,"Edificio G",describir);
             }
         });
@@ -118,8 +126,12 @@ public class MainActivity extends AppCompatActivity {
         E_G_P.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+<<<<<<< HEAD
                 describir = "El edificio G' se encuentra justo a un costado del edificio G, en este edificio podemos encontrar" +
                         "el laboratorio de los ingenieros en bioquimica.";
+=======
+                describir = " ";
+>>>>>>> 18baec13b24ad29e385a5fb63b9c2e88f2bcf9ba
                 Mensaje(R.drawable.g,"Edificio G'",describir);
             }
         });
@@ -130,8 +142,12 @@ public class MainActivity extends AppCompatActivity {
         E_CBI.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+<<<<<<< HEAD
                 describir = "Este edificio es de los más nuevos del tecnologico, ahí suelen darse conferencias y ceremonias de entrega" +
                         "de certificados como los de CISCO";
+=======
+                describir = " ";
+>>>>>>> 18baec13b24ad29e385a5fb63b9c2e88f2bcf9ba
                 //Mensaje(R.drawable.licbi,"Edificio LICBI",describir);
             }
         });
@@ -139,8 +155,12 @@ public class MainActivity extends AppCompatActivity {
         E_A.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+<<<<<<< HEAD
                 describir = "El edficio A es donde normalmente reciben clases los Arquitectos e Ingenieros Civiles, consta de" +
                         "aulas estandar, se encuentra muy cerca de las canchas y el domo,";
+=======
+                describir = " ";
+>>>>>>> 18baec13b24ad29e385a5fb63b9c2e88f2bcf9ba
                 Mensaje(R.drawable.a,"Edificio A",describir);
             }
         });
@@ -148,8 +168,12 @@ public class MainActivity extends AppCompatActivity {
         E_H.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+<<<<<<< HEAD
                 describir = "El edificio H es uno muy bien posicionado debido a que se encuentra justo detras del edificio J que tiene" +
                         "un centro de copias e impresiones y a un costado del Kiosko, una pequeña cafeteria donde se venden buenos desayunos.";
+=======
+                describir = " ";
+>>>>>>> 18baec13b24ad29e385a5fb63b9c2e88f2bcf9ba
                 Mensaje(R.drawable.h,"Edificio H",describir);
             }
         });
@@ -181,9 +205,13 @@ public class MainActivity extends AppCompatActivity {
         E_X.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+<<<<<<< HEAD
                 describir = "El edificio X es uno de los edificios muy bien posicionados en el tecnologico," +
                         "se encuentra a un costado del centro de información y muy cercano al edificio Administrativo." +
                         "Consta de aulas sencillas donde alumnos de varias carreras toman clase";
+=======
+                describir = " ";
+>>>>>>> 18baec13b24ad29e385a5fb63b9c2e88f2bcf9ba
                 Mensaje(R.drawable.x,"Edificio X",describir);
             }
         });
@@ -191,8 +219,12 @@ public class MainActivity extends AppCompatActivity {
         E_N.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+<<<<<<< HEAD
                 describir = "El edificio N es donde usualmente los alumnos de gestion empresarial y administracion toman sus clases." +
                         "Ahí tambien se encuentra una sala de maestros en la cual se puede buscar asesor o evaluador de proyecto de residencia";
+=======
+                describir = " ";
+>>>>>>> 18baec13b24ad29e385a5fb63b9c2e88f2bcf9ba
                 Mensaje(R.drawable.n,"Edificio N",describir);
             }
         });
@@ -202,7 +234,11 @@ public class MainActivity extends AppCompatActivity {
         E_LIIA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+<<<<<<< HEAD
                 describir = "En este edificio suelen tomarse clases de postgrado";
+=======
+                describir = " ";
+>>>>>>> 18baec13b24ad29e385a5fb63b9c2e88f2bcf9ba
                 Mensaje(R.drawable.liia,"Edificio LIIA",describir);
             }
         });
