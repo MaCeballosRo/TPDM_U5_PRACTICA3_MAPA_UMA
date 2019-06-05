@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         E_B.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                describir = " ";
+                describir = " Podemos encontrar el Laboratorio de Análisis de Alimentos y el Laboratorio de Procesos de Alimentación. ";
                 Mensaje(R.drawable.b,"Edificio B",describir);
             }
         });
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         E_B1_P.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                describir = " ";
+                describir = " En este edificio se ubica el Laboratorio de Ingeniería Mecatrónica.";
                 Mensaje(R.drawable.b_p,"Edificio B'",describir);
             }
         });
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         E_B2_P.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                describir = " ";
+                describir = " En este edificio se ubica el Laboratorio de Ingeniería Mecatrónica. ";
                 Mensaje(R.drawable.b_p,"Edificio B'",describir);
             }
         });
@@ -92,8 +92,8 @@ public class MainActivity extends AppCompatActivity {
         E_P.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                describir = " ";
-                //Mensaje(R.drawable.p,"Edificio P",describir);
+                describir = " Es utilizado principalmente por la carrera de Ingeniería Química y Bioquímica; además podemos encontrar la Sala Audiovisual. ";
+                Mensaje(R.drawable.p,"Edificio P",describir);
             }
         });
 
@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 describir = " ";
-                Mensaje(R.drawable.g_p,"Edificio G'",describir);
+                Mensaje(R.drawable.g,"Edificio G'",describir);
             }
         });
 
@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
         E_M.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                describir = " ";
+                describir = " En este edificio podemos encontrar el Laboratorio de Química Analítica y una salon de Topografía ";
                 Mensaje(R.drawable.m,"Edificio M",describir);
             }
         });
@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity {
         E_J.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                describir = " ";
+                describir = " Contiene salones de clases además de los locales del Servicio Médico, de Gestión de Titulación y en la planta alta, el de Copias e Impresiones.";
                 Mensaje(R.drawable.j,"Edificio J",describir);
             }
         });
@@ -167,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
         E_L.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                describir = " ";
+                describir = " Podemos encontrar el Laboratorio de Ingeniería Industrial y 2 salones de clase. ";
                 Mensaje(R.drawable.l,"Edificio L",describir);
             }
         });
@@ -201,7 +201,7 @@ public class MainActivity extends AppCompatActivity {
         E_F.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                describir = " Este edificio contiene los laboratorios de ingeniería eléctrica y de mecatrónica.";
+                describir = " Este edificio contiene los laboratorios de Ingeniería Eléctrica y de Civil";
                 Mensaje(R.drawable.f,"Edificio F",describir);
             }
         });
@@ -209,7 +209,7 @@ public class MainActivity extends AppCompatActivity {
         E_K.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                describir = " ";
+                describir = " En este edificio podemos encontrar el local donde se ubica un comedor/cafetería, un salon de clase y la cede del Comité Ejecutivo Delegacional. ";
                 Mensaje(R.drawable.k,"Edificio K",describir);
             }
         });
@@ -217,7 +217,7 @@ public class MainActivity extends AppCompatActivity {
         E_S.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                describir = " ";
+                describir = " Este edificio solo contiene los locales donde radica el Consejo Estudiantil y el de los encargados de Mantenimiento de equipos de la institución";
                 Mensaje(R.drawable.s,"Edificio S",describir);
             }
         });
@@ -225,7 +225,7 @@ public class MainActivity extends AppCompatActivity {
         E_AD.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                describir = "En este edificio se encuentran las oficinas de los puestos directivos de la institución, el departamento de finacieros y coordinación  ";
+                describir = " Podemos encontrar el Departamento de Servicios Escolares, Departamento de Recursos Humanos, el Centro de Cómputo, División de Estudios Profesionales, también en la planta alta podemos encontrar el Departamento de planeación, Programación y Presupuesto(financieros), y las oficinas de la dirección y subdirección de la institución";
                 Mensaje(R.drawable.ad,"Administración",describir);
             }
         });
@@ -250,7 +250,7 @@ public class MainActivity extends AppCompatActivity {
         E_UVP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                describir = " ";
+                describir = " En este edificio podemos encontrar el Departamento de Gestión Tecnológica y Vinculación, el Departamento de Comunicación y Difusión, el Centro de Idiomas y la División de Estudios de Postgrado e Investigación. Además de estos departamentos, cuenta con salones de clase, uno dedicado para el trabajo en la materia de Dispositivos Móviles y el resto usado generalmente para la presentación de proyecto y clases de idioma";
                 Mensaje(R.drawable.uvp,"Edificio UVP",describir);
             }
         });
@@ -259,7 +259,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 describir = "Está conformado por 5 salas de cómputo, 3 de propósito general, una sala CISCO( especializada para el trabajo en redes de computadoras) y una sala de Sistemas Operativos. Las carreras que principalmente utilizan este laboratorio son Sistemas Computacionales, Mecatrónica y Civil";
-                Mensaje(R.drawable.lc,"Laboratorio de Computo",describir);
+                Mensaje(R.drawable.lc,"Laboratorio de Cómputo",describir);
             }
         });
 
@@ -282,7 +282,7 @@ public class MainActivity extends AppCompatActivity {
         E_UD.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                describir = " ";
+                describir = " Podemos encontrar en la planta baja, el Departamento de Ingeniería Industrial, el Departamento de Sistemas Computacionales, Coordinación de Tutorías. En la segunda planta encontramos los Departamento de Ingeniería Eléctrica y Electrónica, de Desarrollo Académico y de Educación a Distancia. Además podemos encontrar salones de clase, aulas de uso múltiple y un taller de matemáticas y ciencias básicas. ";
                 Mensaje(R.drawable.ud,"Unidad Académica Departamental",describir);
             }
         });
